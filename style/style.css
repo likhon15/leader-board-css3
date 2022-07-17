@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.players{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #F3F1FF;
+}
+
+.Top-Players{
+  background-color: white;
+}
+
+.player{
+  display: flex;
+  align-items: center;
+}
+
+.player img{
+  height: 56px;
+  width: 56px;
+}
+
+.player h3{
+  margin-left: 10px;
+}
