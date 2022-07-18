@@ -200,6 +200,7 @@ body{
   color: #FF4A60;
 }
 
+
 /* Mobile Device*/
 @media only screen and (max-width: 688px) {
     .container{
@@ -212,6 +213,7 @@ body{
       grid-template-columns: repeat(1,1fr);
       justify-content: center;
     }
+
     .courses{
       flex-direction: column;
       align-items: center;
