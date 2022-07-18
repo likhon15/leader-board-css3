@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 .players{
@@ -71,9 +72,67 @@ main{
   font-size: 20px;
 }
 
+
+h2{
+  color: white;
+  font-weight: 700;
+}
+
 .blog-author{
   color: #9F9F9F;
 }
+
+
+.img-nav img{
+  width: 7%;
+}
+
+.nav-div a{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 350;
+  text-decoration: none;
+  padding: 7px;
+}
+
+.navv span{
+    display: flex;
+    align-items: center;
+}
+
+.navv img{
+  margin-right: 10px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.navv img{
+  width: 7%;
+}
+
+
+
+.navv{
+  align-items: center;
+}
+
+.nav-div{
+  display: flex;
+  background-color: #562EFF;
+  justify-content: space-evenly;
+}
+
+.navvv{
+  display: flex;
+  align-items: center;
+}
+
+.navvv img{
+  margin-left: 14px;
+}
+
 
 .blog-author a{
   text-decoration: none;
