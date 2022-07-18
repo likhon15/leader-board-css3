@@ -177,6 +177,9 @@ body{
   color: #AEAEAE;
 }
 
+
+
+
 .course-info{
   display: flex;
   justify-content: space-between;
@@ -187,6 +190,15 @@ body{
   background-color: ;
 }
 
+.course-duration{
+  background-color: #FFE4E8;
+  border-radius: 15px;
+  padding: 1px 8px;
+}
+
+.course-duration ,.fa-cc ,.fa-clock{
+  color: #FF4A60;
+}
 
 /* Mobile Device*/
 @media only screen and (max-width: 688px) {
@@ -204,6 +216,21 @@ body{
       flex-direction: column;
       align-items: center;
       justify-content: center;
+    }
+    .navvv, .alone{
+      display: flex;
+    }
+    
+    .navv span img{
+      padding: 15px;
+      width: 28%;
+    }
+    .navv span h2{
+      display: none;
+    }
+
+    .navvv ,.img-alone{
+      margin-right: 5px;
     }
 }
 
